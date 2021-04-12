@@ -16,7 +16,7 @@ public class Downloader {
 			in = new URL(url).openStream();
 			Files.copy(in,
 					new File(System.getProperty("user.home") + "/Desktop",
-							url.substring(url.length() - 35) + "-e621.net___" + url.substring(url.length() - 4)).toPath(),
+							url.substring(url.length() - 35) + "-e621.net___" + url.substring(url.length() - 5)).toPath(),
 					StandardCopyOption.REPLACE_EXISTING);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

@@ -7,7 +7,7 @@
 	<version>0.0.1</version>
 	<name>E621 Flooder</name>
 	<description>Floods your desktop with random images from e621</description>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -25,6 +25,5 @@
 			<version>4.5.13</version>
 		</dependency>
 	</dependencies>
-
-
+	
 </project>
